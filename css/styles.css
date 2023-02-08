@@ -12,8 +12,28 @@ html, body {
 }
 
 .red-square {
-    background-color: #F0F;
+    background-color: lightblue;
+    border: 5px double darkblue;
+    border-radius: 20px;
     width: 200px;
     height:200px;
-    margin: 20px;
+    margin: 50px;
+}
+
+#person {
+    background-color: lightpink;
+    border: 2px solid #F0F;
+    border-radius: 5px;
+    width: 200px;
+    height:200px;
+    margin: 50px;
+    float: right;
+}
+
+h3 {
+ font-size: 1.5em;
+ font-family: Arial;
+ text-align: center;
+ padding: 60px 0;
+ color:#FFF;
 }
