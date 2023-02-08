@@ -10,3 +10,10 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.red-square {
+    background-color: #F0F;
+    width: 200px;
+    height:200px;
+    margin: 20px;
+}
