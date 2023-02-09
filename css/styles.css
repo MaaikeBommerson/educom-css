@@ -11,6 +11,7 @@ html, body {
     padding: 0;
 }
 
+/* exercise 4 */
 .red-square {
     background-color: lightblue;
     border: 5px double darkblue;
@@ -36,4 +37,25 @@ h3 {
  text-align: center;
  padding: 60px 0;
  color:#FFF;
+}
+
+/* Exercise 5 */
+.cascading-parent {
+    font-weight: bold;
+    background-color: #c33a3a;
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.cascading-child {
+    font-family: monospace;
+    color: #c33a3a;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #FFF;
+    height: 200px;
+    padding: 40px;
+    border: 10px #c33a3a dashed;
 }
