@@ -8,7 +8,7 @@
 
 html, body {
     margin: 0;
-    padding: 0 50px;
+    padding:0;
     font-family: verdana;
 }
 
@@ -165,7 +165,7 @@ a:link {
   } */
   
   /* Exercise 9 */
-  :root {
+  /* :root {
 
     --regular: "Verdana";
 
@@ -216,4 +216,87 @@ a {
     color: var(--darker-red);
     background-color: var(--lightest-brown);
     padding: var(--padding-a);
+} */
+
+/* Exercise 10 */
+
+:root {
+ --dark-blue: darkblue;
+ --light-blue: lightblue;
+ --shadow: rgba(0,0,0,0.6);
+}
+
+body {
+    padding:50px;
+}
+
+div {
+    display:block;
+    margin: 50px;
+}
+
+.button-container a {
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+
+    border-radius: 10px;
+    
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+
+    text-decoration: none;
+    
+    transition: all 0.5s ease;
+}
+
+.button-container a:hover {
+    background-color: #AF1F16;
+    text-decoration: none;
+}
+
+.button-container2 a {
+    width: 200px;
+    padding: 10px;
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0px 0px 5px 0px var(--shadow);
+    -moz-box-shadow: 0px 0px 5px 0px var(--shadow);
+    box-shadow: 0px 0px 5px 0px var(--shadow);
+
+    text-decoration: none;
+
+    transition:all 0.3s ease;
+}
+
+.button-container2 a:hover{
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+}
+
+.button-container3 a {
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(#AF1F16, #F00, orange) ;
+    color: white;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0px 0px 5px 0px var(--shadow);
+    -moz-box-shadow: 0px 0px 5px 0px var(--shadow);
+    box-shadow: 0px 0px 5px 0px var(--shadow);
+
+    text-decoration: none;
+
+    transition:all 0.3s ease;
+}
+
+.button-container3 a:hover{
+    background: linear-gradient(orange,#f00,#AF1F16);
+    color: white;
+
 }
