@@ -92,7 +92,7 @@ h2 {
 } */
 
 /* Exercise 7 */
-.site-font {
+/* .site-font {
     font-family:verdana;
     font-size: 16px;
     Width: 200px;
@@ -124,5 +124,44 @@ h2 {
 .site-square h2 {
     margin-top: 190px;
     font-size: 20px;
+} */
+
+/* Exercise 8 */
+
+ul {
+    margin: 50px 0;
+}
+a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid white;
 }
 
+/* unvisited link */
+a:link {
+    color: white;
+    background-color: darkcyan;
+    
+  }
+  
+  /* visited link */
+  a:visited {
+    color:white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:darkcyan;
+    background-color: white;
+    border: 2px solid darkcyan;
+  }
+  
+  /* selected link */
+  a:active {
+    color:darkcyan;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid darkcyan;
+  }
