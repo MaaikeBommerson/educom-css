@@ -63,7 +63,7 @@ h3 {
 
 /* Exercise 6 */
 
-a {
+/* a {
     font-size: 25px;
     color: rgb(13, 9, 61);
     Background-color: rgb(212, 214, 214);
@@ -89,4 +89,40 @@ h2 {
     font-size: 30px;
     color: rgb(212,214,214);
     background-color: rgb(13,9,61)
+} */
+
+/* Exercise 7 */
+.site-font {
+    font-family:verdana;
+    font-size: 16px;
+    Width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 10px;
+    text-align:center;
+    background-color:darkmagenta;
+    border-radius: 10%;
 }
+
+.site-color {
+    background-color: indigo;
+    color: #FFF;
+    font-weight: bolder;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+.site-square {
+    width: 400px;
+    height: 400px;
+    background-color:cornflowerblue;
+    color: wheat;
+    border-radius: 100%;
+}
+
+.site-square h2 {
+    margin-top: 190px;
+    font-size: 20px;
+}
+
