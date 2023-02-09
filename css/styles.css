@@ -8,11 +8,12 @@
 
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 0 50px;
+    font-family: verdana;
 }
 
 /* exercise 4 */
-.red-square {
+/* .red-square {
     background-color: lightblue;
     border: 5px double darkblue;
     border-radius: 20px;
@@ -37,10 +38,10 @@ h3 {
  text-align: center;
  padding: 60px 0;
  color:#FFF;
-}
+} */
 
 /* Exercise 5 */
-.cascading-parent {
+/* .cascading-parent {
     font-weight: bold;
     background-color: #c33a3a;
     width: 400px;
@@ -58,4 +59,34 @@ h3 {
     height: 200px;
     padding: 40px;
     border: 10px #c33a3a dashed;
+} */
+
+/* Exercise 6 */
+
+a {
+    font-size: 25px;
+    color: rgb(13, 9, 61);
+    Background-color: rgb(212, 214, 214);
+    border: 2px rgb(13,9,61) solid;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+h2 {
+    Font-size: rgb(13,9,61);
+    color: #444;
+    margin: 50px 0;
+}
+
+.cascading-parent h2 {
+    color: #000;
+    font-weight: 200;
+    text-decoration:line-through;
+}
+
+.cascading-parent a {
+    font-size: 30px;
+    color: rgb(212,214,214);
+    background-color: rgb(13,9,61)
 }
